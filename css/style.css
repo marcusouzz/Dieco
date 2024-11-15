@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #C5A774; /* Cor semelhante ao fundo da imagem */
+}
+
+.container {
+  width: 400px;
+  padding: 30px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-size: 32px;
+  color: #ECD9B8;
+  font-family: 'Serif', sans-serif;
+  margin-bottom: 5px;
+}
+
+.container h2 {
+  font-size: 18px;
+  color: #ECD9B8;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 80%;
+  padding: 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #fff5e1;
+}
+
+.input-container img {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ECD9B8;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.links {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+.input-container input[type="file"] {
+  display: none; /* Esconde o input padrão */
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #ECD9B8;
+  color: #333;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.custom-file-upload:hover {
+  background-color: #C5A774; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo adicional para o texto que mostra o nome do arquivo */
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
