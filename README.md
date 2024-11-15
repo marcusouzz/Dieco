@@ -11,8 +11,8 @@ O **Dieco** é uma plataforma inovadora projetada para transformar o gerenciamen
 - **Localização de Pontos de Coleta**: Mapa integrado que exibe pontos de coleta próximos, otimizando o transporte e armazenamento de materiais recicláveis.
 
 ## Tecnologias Utilizadas
-- **Front-end**: React
-- **Back-end**: Spring Boot
+- **Front-end**: Javascript, HTML e CSS
+- **Back-end**: PHP
 - **Banco de Dados**: MySQL
 - **Outras Tecnologias**: APIs de geolocalização para pontos de coleta, ferramentas de análise de dados.
 
